@@ -1,0 +1,109 @@
+html,
+body {
+  color: #fff;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-image: url("back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/* h1{
+    color: white; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+} */
+
+.logo {
+  /* margin-left: 3%; */
+  padding-left: 30px;
+}
+
+.travel {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  margin-left: 173px;
+  margin-top: 167px;
+}
+
+.navbar {
+  position: relative;
+  top: -50px;
+  /* color: white; */
+  text-align: right;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.navbar__list {
+  padding: 0 10px;
+  list-style-type: none;
+  display: inline;
+}
+
+.schedule {
+  font-size: 35px;
+  font-weight: 500;
+  position: relative;
+  left: 824px;
+  bottom: 70px;
+  cursor: pointer;
+}
+
+.head {
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.arrival,
+.dest {
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  display: inline;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+}
+.arrival {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.dest {
+  margin-left: 20px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.air1,
+.air2 {
+  position: absolute;
+  margin-top: 8px;
+}
+
+.air1 {
+  margin-left: -75px;
+}
+
+.air2 {
+  margin-left: -62px;
+}
+
+.date {
+  font-size: 15px;
+  position: absolute;
+  margin-top: 15px;
+  padding: 5px;
+  padding-left: 60px;
+  padding-right: 325px;
+  display: inline;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+}
+
+.date_icon {
+  position: absolute;
+  margin-top: -1px;
+  margin-left: -34px;
+  /* margin-right: 10px; */
+}
