@@ -9,13 +9,7 @@ body {
   overflow-x: hidden;
 }
 
-/* h1{
-    color: white; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-} */
-
 .logo {
-  /* margin-left: 3%; */
   padding-left: 30px;
 }
 
@@ -29,7 +23,6 @@ body {
 .navbar {
   position: relative;
   top: -50px;
-  /* color: white; */
   text-align: right;
   padding-right: 50px;
   cursor: pointer;
@@ -65,10 +58,12 @@ body {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 6px;
 }
+
 .arrival {
   padding-left: 80px;
   padding-right: 80px;
 }
+
 .dest {
   margin-left: 20px;
   padding-left: 65px;
@@ -105,5 +100,4 @@ body {
   position: absolute;
   margin-top: -1px;
   margin-left: -34px;
-  /* margin-right: 10px; */
 }
